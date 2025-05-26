@@ -18,7 +18,7 @@ import HOCreact from "./topics/HOCreact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/RoadMap">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
