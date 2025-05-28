@@ -20,7 +20,7 @@ export default function ProjectStructure() {
       </Box>
 
       <Box className="project-description" mt={3}>
-        <Typography paragraph>
+        <Typography>
           Чтобы начать разрабатывать приложение на React, важно правильно
           организовать файлы и папки. Ниже приведён пример типичной структуры
           проекта:
@@ -77,9 +77,7 @@ export default function ProjectStructure() {
         <Typography variant="h6" gutterBottom fontWeight="bold">
           📦 Пример компонента:
         </Typography>
-        <Typography paragraph>
-          Вот как может выглядеть простой компонент:
-        </Typography>
+        <Typography>Вот как может выглядеть простой компонент:</Typography>
 
         <Box
           component="pre"
@@ -102,7 +100,7 @@ function Button({ text }) {
 export default Button;`}</code>
         </Box>
 
-        <Typography paragraph>Использование в другом компоненте:</Typography>
+        <Typography>Использование в другом компоненте:</Typography>
 
         <Box
           component="pre"
@@ -135,7 +133,7 @@ export default Home;`}</code>
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🔄 Роутинг (навигация между страницами)
         </Typography>
-        <Typography paragraph>
+        <Typography>
           Для создания разных страниц используется <code>react-router-dom</code>
           .
         </Typography>
@@ -174,7 +172,7 @@ export default App;`}</code>
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🏁 Что дальше?
         </Typography>
-        <Typography paragraph>
+        <Typography>
           После освоения базовой структуры попробуй добавить:
         </Typography>
         <List>

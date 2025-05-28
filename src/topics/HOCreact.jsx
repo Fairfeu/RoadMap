@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Typography,
@@ -11,7 +10,6 @@ import {
 export default function HOCreact() {
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
-      {/* Заголовок */}
       <Box textAlign="center" mb={3}>
         <Typography variant="h4" component="h1" fontWeight="bold">
           🧩 Что такое HOC в React?
@@ -21,20 +19,18 @@ export default function HOCreact() {
         </Typography>
       </Box>
 
-      {/* Описание HOC */}
       <Box className="description" mt={2}>
-        <Typography paragraph>
+        <Typography>
           <strong>HOC</strong> (Higher-Order Component) — это функция, которая
           принимает один компонент и возвращает новый, расширенный
           дополнительной логикой или пропсами.
         </Typography>
-        <Typography paragraph>
+        <Typography>
           Это один из способов <strong>повторного использования логики</strong>{" "}
           между компонентами без дублирования кода.
         </Typography>
       </Box>
 
-      {/* Пример HOC */}
       <Box className="hoc-example" mt={4}>
         <Typography variant="h6" gutterBottom fontWeight="bold">
           📌 Простой пример HOC:
@@ -96,7 +92,6 @@ const ButtonWithCounter = withCounter(MyButton);
         </Box>
       </Box>
 
-      {/* Когда использовать */}
       <Box className="when-to-use" mt={4}>
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🧠 Когда использовать HOC?
@@ -114,7 +109,6 @@ const ButtonWithCounter = withCounter(MyButton);
         </List>
       </Box>
 
-      {/* Важные моменты */}
       <Box className="important-notes" mt={4}>
         <Typography variant="h6" gutterBottom fontWeight="bold">
           ⚠️ Важные моменты при использовании HOC:
@@ -132,7 +126,6 @@ const ButtonWithCounter = withCounter(MyButton);
         </List>
       </Box>
 
-      {/* Плюсы HOC */}
       <Box className="plus-minus" mt={4}>
         <Typography variant="h6" gutterBottom fontWeight="bold">
           ✅ Плюсы HOC:
@@ -150,7 +143,6 @@ const ButtonWithCounter = withCounter(MyButton);
         </List>
       </Box>
 
-      {/* Альтернативы */}
       <Box className="alternatives" mt={4}>
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🛠 Альтернативы HOC:
@@ -207,7 +199,6 @@ const ButtonWithCounter = withCounter(MyButton);
         </List>
       </Box>
 
-      {/* Итог */}
       <Box
         className="conclusion"
         mt={4}
@@ -218,7 +209,7 @@ const ButtonWithCounter = withCounter(MyButton);
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🏁 Итог:
         </Typography>
-        <Typography paragraph>
+        <Typography>
           HOC — мощный паттерн для расширения компонентов. Он особенно полезен,
           если ты хочешь добавить:
         </Typography>

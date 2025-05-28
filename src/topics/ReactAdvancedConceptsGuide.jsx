@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Typography,
@@ -30,7 +29,7 @@ export default function ReactAdvancedConceptsGuide() {
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🔍 Refs — ссылки на DOM или значения между рендерами
         </Typography>
-        <Typography paragraph>
+        <Typography>
           Используйте <code>useRef</code>, чтобы получить доступ к DOM-элементам
           или сохранить мутабельные данные.
         </Typography>
@@ -85,7 +84,7 @@ function TextInput() {
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🧩 Fragments — группировка элементов без лишних обёрток
         </Typography>
-        <Typography paragraph>
+        <Typography>
           React.Fragment позволяет группировать элементы без создания лишнего
           узла в DOM.
         </Typography>
@@ -130,7 +129,7 @@ function Table() {
         <Typography variant="h6" gutterBottom fontWeight="bold">
           🔑 Keys — уникальные идентификаторы для элементов списка
         </Typography>
-        <Typography paragraph>
+        <Typography>
           Используются React для эффективного сравнения и обновления элементов в
           списке.
         </Typography>
@@ -182,7 +181,7 @@ function UserList({ users }) {
         <Typography variant="h6" gutterBottom fontWeight="bold">
           📦 React.memo — оптимизация рендеринга
         </Typography>
-        <Typography paragraph>
+        <Typography>
           Позволяет избежать лишних ререндеров функциональных компонентов.
         </Typography>
 

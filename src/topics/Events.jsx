@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Typography,
@@ -31,7 +30,7 @@ export default function ReactEventsGuide() {
         <Typography variant="h6" gutterBottom fontWeight="bold">
           Основы обработки событий
         </Typography>
-        <Typography paragraph>В React события пишутся в camelCase:</Typography>
+        <Typography>В React события пишутся в camelCase:</Typography>
 
         <Box
           component="pre"
@@ -91,7 +90,7 @@ export default function ReactEventsGuide() {
         <Typography variant="h6" gutterBottom fontWeight="bold">
           Синтетические события
         </Typography>
-        <Typography paragraph>
+        <Typography>
           React оборачивает нативные события браузера в{" "}
           <code>SyntheticEvent</code> для кросс-браузерной совместимости.
         </Typography>

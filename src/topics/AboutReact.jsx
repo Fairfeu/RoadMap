@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Typography,
@@ -8,7 +7,6 @@ import {
   ListItemText,
   Card,
   CardContent,
-  Button,
 } from "@mui/material";
 
 function AboutReact() {
@@ -26,7 +24,7 @@ function AboutReact() {
           <Typography variant="h5" gutterBottom>
             Что такое React?
           </Typography>
-          <Typography paragraph>
+          <Typography>
             <strong>React</strong> — JavaScript-библиотека с открытым исходным
             кодом, разработанная Facebook/Meta для создания{" "}
             <em>интерактивных пользовательских интерфейсов</em>. Основные
@@ -53,7 +51,7 @@ function AboutReact() {
               <Typography variant="h6" gutterBottom>
                 💡 Декларативный подход:
               </Typography>
-              <Typography paragraph>
+              <Typography>
                 Описываем <em>что</em> должно отобразиться, а не <em>как</em>{" "}
                 это сделать.
               </Typography>
@@ -98,7 +96,7 @@ function Greeting({ name }) {
           </Box>
 
           <Box className="conclusion" mt={4}>
-            <Typography paragraph>
+            <Typography>
               Изучайте React через официальную&nbsp;
               <a
                 href="https://react.dev/ "

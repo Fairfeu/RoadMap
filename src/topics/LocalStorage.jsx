@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Typography,
@@ -27,7 +26,7 @@ export default function StoragesTheory() {
       </Box>
 
       <Box className="description" mt={2}>
-        <Typography paragraph>
+        <Typography>
           В браузере есть встроенные механизмы хранения данных на клиенте:{" "}
           <strong>localStorage</strong> и <strong>sessionStorage</strong>. Они
           позволяют сохранять данные без использования сервера.
