@@ -1,1 +1,0 @@
-import{j as r}from"./index-PoM-DG1p.js";function s(){return r.jsxs("div",{children:[r.jsx("h1",{children:"❌ 404 — Страница не найдена"}),r.jsxs("p",{children:["Попробуйте перейти на ",r.jsx("a",{href:"/",children:"главную"}),"."]})]})}export{s as default};
