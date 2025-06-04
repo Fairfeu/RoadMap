@@ -1,0 +1,17 @@
+export default {
+  "/": () => import("./topics/Home"),
+  "/about-react": () => import("./topics/AboutReact"),
+  "/start-with": () => import("./topics/StartsWith"),
+  "/project-structure": () => import("./topics/ProjectStructure"),
+  "/virtual-dom": () => import("./topics/VirtualDomPage"),
+  "/components": () => import("./topics/Components"),
+  "/props": () => import("./topics/ReactProps"),
+  "/state": () => import("./topics/StateReact"),
+  "/lifecycle": () => import("./topics/LifeCycleReact"),
+  "/events": () => import("./topics/Events"),
+  "/advanced": () => import("./topics/ReactAdvancedConceptsGuide"),
+  "/context": () => import("./topics/ReactContextGuide"),
+  "/react-router": () => import("./topics/ReactRouter"),
+  "/local-storage": () => import("./topics/LocalStorage"),
+  "/hoc": () => import("./topics/HOCreact"),
+};
