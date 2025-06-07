@@ -9,7 +9,7 @@ function Layout() {
     <Box sx={{ display: "flex" }}>
       <Sidebar />
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-        <Outlet key={location.pathname} />
+        <Outlet />
       </Box>
     </Box>
   );
